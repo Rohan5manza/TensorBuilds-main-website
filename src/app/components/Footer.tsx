@@ -9,7 +9,7 @@ export default function Footer() {
             <div className={styles.footercontent}>
             </div>
             <div className={styles.footerbottom}>
-                <p>&copy; 2025 InfraEdge. Built by TensorBuilds. All Rights Reserved.</p>
+                <p>2024 TensorBuilds. All Rights Reserved.</p>
                 <div className={styles.socialicons}>
                     <a href="mailto:tensorbuilds@gmail.com" target="_blank" rel="noopener noreferrer">
                         <MdEmail />
@@ -24,7 +24,7 @@ export default function Footer() {
                         Instagram
                     </a>
                 </div>
-                <p>Contact no :+91 9552510715 / 91726 35200</p>
+                <p>Contact no :+91 9172635200 / 9552510715</p>
             </div>
         </footer>
     );

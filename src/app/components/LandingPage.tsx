@@ -27,9 +27,11 @@ export default function LandingPage() {
 
             </div>
             <nav className={styles.navbar}>
-                <a href="/">Home</a>
-                <a href="https://infraedge.vercel.app/">InfraEdge</a>
+            <a href="/">Home</a>
                 <a href="https://wa.me/qr/LUDMYTACVQGHC1">Contact</a>
+                <a href="https://docs.google.com/document/d/1zpu86TA3rJ3c0HOzLn_FU3c-bHJw4i74lgi6qknpKjc/edit?usp=sharing">White Paper</a>
+                <a href="https://docs.google.com/document/d/1pdqMqb-ziLHMx5d3gl77X7uY_jTaww3Omqfq5RGuh6E/edit?usp=sharing">Privacy Policy</a>
+                
             </nav>
             <button onClick={toggleTheme}><IoMoonOutline className={styles.mode}/></button>
         </header>
@@ -41,7 +43,7 @@ export default function LandingPage() {
   autoPlay
 />
 <img src="mask.jpg" className={styles.mask }/>
-            <h2>Tensorbuilds</h2></div>
+            <h2>TensorBuilds</h2></div>
         </div></>
     );
 }

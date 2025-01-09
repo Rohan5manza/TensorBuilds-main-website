@@ -14,8 +14,8 @@ export default function Teams() {
             id: 1,
             heading: `Rohan Marar`,
             cost: 'Founder',
-            perks: [`Committed to transforming innovative ideas into services and products that improve lives.`, 'Founded the startup in August 2024, actively seeking ways to drive the business forward..',
-                `Dedicated to creating tools that empower others through technology and innovation.`,'Focused on identifying opportunities for business growth.'
+            perks: [`Committed to transforming my innovative ideas into services and products that improve lives.`, 'Founded the startup in August 2024, actively seeking ways to drive the business forward.',
+                `Dedicated to creating AI tools that empower others through technology`,'Focused on identifying opportunities for business growth.'
             ],
             image : '/rohan.jpg',
         },
@@ -24,7 +24,7 @@ export default function Teams() {
             heading: `Prathmesh Gawali`,
             cost: 'Co-Founder',
             perks: [`Assist with key business decisions, web application development, and project building.`, 'Joined the startup in November 2024 after the launch of WealthifyAI, contributing to its growth.',
-                `Manage intern hiring, Exploring strategies to expand and scale the business. and co-create innovative TOTB ventures.`
+                `Manage intern hiring, Exploring strategies to expand and scale the business. and co-create our innovative TOTB venture.`
             ],
             image : '/prathmesh.jpg',},
             {

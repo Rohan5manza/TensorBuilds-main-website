@@ -5,6 +5,9 @@ export default function Innovations() {
     return (
         <>
         <h2 className={styles.heading}>Pursuing Innovation</h2>
+        <h3 className={styles.content}>Along with products and services, we drive innovation in AI by building our own new models, software dev packages, libraries, and documentation.
+
+We launch python packages as toolkit suite for ML practitioners and researchers, and we strive for breakthroughs by launching new customized AI models.</h3>
         <div className={styles.compare}>
             <div className={styles.card1}>
                 <h2>Turbotune</h2>
