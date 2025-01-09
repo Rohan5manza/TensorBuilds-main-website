@@ -196,7 +196,7 @@
 // }
 
 "use client";
-import Header from "./components/Header";
+
 import Footer from "./components/Footer";
 import MainContent from "./components/MainContent";
 import styles from "./page.module.css";
