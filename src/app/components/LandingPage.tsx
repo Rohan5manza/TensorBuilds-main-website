@@ -2,8 +2,6 @@
 import styles from "../page.module.css";
 import { useEffect,useState } from "react";
 import { IoMoonOutline } from "react-icons/io5";
-import Opportunities from "./Opportunities";
-import Link from "next/link";
 export default function LandingPage() {
     const [theme, setTheme] = useState<"light" | "dark">("light");
 
