@@ -5,7 +5,7 @@ export default function Introduction() {
     return (
         <div className={styles.elementsSH}>
             <div className={styles.content}>
-                <h2>Empowering limitless innovation through your private, on‑premise multimodal AI lab. </h2>
+                <h2>Empowering limitless innovation through your private, on‑premise multimodal AI models</h2>
                 <h3>
   <p></p>
 
