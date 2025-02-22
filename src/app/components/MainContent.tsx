@@ -5,13 +5,14 @@ import Initiatives from "./Initiatives";
 import styles from "../page.module.css";
 import Products from "./Products";
 import Introduction from "./Introduction";
-
+import BulkBites from "./Bulkbites";
 export default function MainContent() {
     return (
         <main className={styles.main}>
 
             <LandingPage />
             <Introduction />
+            <BulkBites />
             <Products />
             
             <Teams/>
