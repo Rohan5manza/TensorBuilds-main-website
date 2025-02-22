@@ -1,8 +1,6 @@
 "use client";
 import LandingPage from "./LandingPage";
 import Teams from "./Teams";
-import Innovations from "./Innovations";
-import Hiring from "./Hiring";
 import Initiatives from "./Initiatives";
 import styles from "../page.module.css";
 import Products from "./Products";
