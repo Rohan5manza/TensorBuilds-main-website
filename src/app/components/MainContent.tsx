@@ -15,7 +15,6 @@ export default function MainContent() {
             <LandingPage />
             <Introduction />
             <Products />
-            <Innovations />
             
             <Teams/>
             <Initiatives />
