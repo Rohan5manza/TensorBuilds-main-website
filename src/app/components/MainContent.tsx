@@ -19,7 +19,6 @@ export default function MainContent() {
             
             <Teams/>
             <Initiatives />
-            <Hiring />
             <a
                 href="https://www.youtube.com/"
                 target="_blank"
