@@ -13,10 +13,10 @@ export default function MainContent() {
             <LandingPage />
             <Introduction />
             <Innovations />
+            <Initiatives />
+            <Teams/>
             <Products />
             
-            <Teams/>
-            <Initiatives />
             <a
                 href="https://www.youtube.com/"
                 target="_blank"
