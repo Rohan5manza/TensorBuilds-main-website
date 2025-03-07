@@ -11,10 +11,10 @@ export default function MainContent() {
         <main className={styles.main}>
 
             <LandingPage />
-            <Introduction />
             <Innovations />
             <Initiatives />
             <Teams/>
+            <Introduction />
             <Products />
             
             <a
