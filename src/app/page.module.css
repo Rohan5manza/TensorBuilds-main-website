@@ -623,6 +623,57 @@
   object-fit: fill;
 }
 
+/* Container for both images, placed side by side */
+.imageGrid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Individual image container */
+.imageContainer {
+    position: relative;
+    width: 48%; /* Adjust for responsiveness */
+    max-width: 600px; /* Limit max width */
+}
+
+/* Large images */
+.largeImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+/* Overlay for text description */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.overlay h1 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.overlay p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+
+
 .content p {
   font-size: 120%;
   padding-bottom: 5px;
