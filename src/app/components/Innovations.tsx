@@ -11,11 +11,11 @@ export default function Products() {
                 
                 <div className={styles.gridContainer}>
                     <div className={styles.Item}>
-                    <img src="infraedge.png" alt="Personal URL" className={styles.gridImage} />
+                    <img src="" alt="Personal URL" className={styles.gridImage} />
                         <p className={styles.Type}>Mobile app</p>
                         <p className={styles.ProductName}>Health and fitness</p>
                         <p className={styles.Description}>An upcoming computer vision app for food recognition and estimation of calories & macronutrients.Designed to help bodybuilders with their workouts, and assist with cooking recipes.</p>
-                        <a className={styles.Status} href='https://infraedge.tensorbuilds.tech/'>Access here</a>
+                        <a className={styles.Status} href='/'>Coming soon</a>
                     </div>
 
                 </div>
