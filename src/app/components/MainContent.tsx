@@ -2,6 +2,7 @@
 import LandingPage from "./LandingPage";
 import Teams from "./Teams";
 import Initiatives from "./Initiatives";
+import Innovations from "./Innovations";
 import styles from "../page.module.css";
 import Products from "./Products";
 import Introduction from "./Introduction";
@@ -10,6 +11,7 @@ export default function MainContent() {
         <main className={styles.main}>
 
             <LandingPage />
+            <Innovations />
             <Initiatives />
             <Teams/>
             <Introduction />
