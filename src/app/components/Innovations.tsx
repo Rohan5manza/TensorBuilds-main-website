@@ -32,7 +32,7 @@ export default function Products() {
                         
                         <p className={styles.Type}>Mobile app</p>
                         <p className={styles.ProductName}>Health and fitness</p>
-                        <p className={styles.Description}>Set to be the world's best AI-powered calorie tracker. An All-in-One app for cooking recipes, workout assistance and accurate macronutrient breakdown.</p>
+                        <p className={styles.Description}>Set to be the world&rsquo;s best AI-powered calorie tracker. An All-in-One app for cooking recipes, workout assistance and accurate macronutrient breakdown.</p>
                         <a className={styles.Status} href='https://bulkbites.tensorbuilds.tech'>Click Here</a>
                     </div>
 
