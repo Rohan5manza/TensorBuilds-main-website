@@ -11,24 +11,9 @@ export default function Products() {
                 
                 <div className={styles.gridContainer}>
                     <div className={styles.Item}>
-                            <Image 
-        src="/public/Screenshot 2025-04-21 104650.png" // put your image in the public/images folder
-        alt="BulkBites app screenshot"
-        width={300}
-        height={200}
-    /> 
-                                       <Image 
-        src="/public/Screenshot 2025-04-21 104703.png" // put your image in the public/images folder
-        alt="BulkBites app screenshot 2"
-        width={300}
-        height={200}
-    />
-                                          <Image 
-        src="/public/Screenshot 2025-04-21 104713.png" // put your image in the public/images folder
-        alt="BulkBites app screenshot 3"
-        width={300}
-        height={200}
-    />
+                        <img src="/public/Screenshot 2025-04-21 104650.png" className={styles.largeImage} alt="BulkBites app screenshot"/>
+                         <img src="/public/Screenshot 2025-04-21 104703.png" className={styles.largeImage} alt="BulkBites app screenshot 2"/>
+                        <img src="/public/Screenshot 2025-04-21 104713.png" className={styles.largeImage} alt="BulkBites app screenshot 3"/>
                         
                         <p className={styles.Type}>Mobile app</p>
                         <p className={styles.ProductName}>Health and fitness</p>
