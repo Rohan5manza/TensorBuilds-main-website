@@ -10,9 +10,9 @@ export default function Products() {
                 
                 <div className={styles.gridContainer}>
                     <div className={styles.Item}>
-                        <img src="/public/Screenshot 2025-04-21 104650.png" className={styles.largeImage} alt="BulkBites app screenshot"/>
-                         <img src="/public/Screenshot 2025-04-21 104703.png" className={styles.largeImage} alt="BulkBites app screenshot 2"/>
-                        <img src="/public/Screenshot 2025-04-21 104713.png" className={styles.largeImage} alt="BulkBites app screenshot 3"/>
+                        <img src="Screenshot 2025-04-21 104650.png" className={styles.largeImage} alt="BulkBites app screenshot"/>
+                         <img src="Screenshot 2025-04-21 104703.png" className={styles.largeImage} alt="BulkBites app screenshot 2"/>
+                        <img src="Screenshot 2025-04-21 104713.png" className={styles.largeImage} alt="BulkBites app screenshot 3"/>
                         
                         <p className={styles.Type}>Mobile app</p>
                         <p className={styles.ProductName}>Health and fitness</p>
